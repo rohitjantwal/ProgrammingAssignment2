@@ -2,7 +2,7 @@
 ## a matrix that caches its inverse and computes inverse of 
 ## the matrix returned by makeCachematrix respectively.
 ## Also checks if inverse has already been calculated, if yes
-## then cacheSolve retrieves the inverse from the cache.
+## then cachesolve retrieves the inverse from the cache.
 
 ## Function to create matrix and cache its inverse
 makeCacheMatrix <- function( m = matrix() ) {
